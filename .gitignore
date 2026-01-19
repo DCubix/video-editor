@@ -32,6 +32,12 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Flutter ephemeral files
+**/ephemeral/
+linux/flutter/generated_config.cmake
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
 # Symbolication related
 app.*.symbols
 
