@@ -46,3 +46,12 @@ Mobile (iOS/Android) and web platforms are not included.
 ## FVM Configuration
 
 The project uses FVM with the stable Flutter channel. The configuration is stored in `.fvmrc`.
+
+## Notes
+
+- App icons: You'll need to add appropriate icon files to:
+  - `windows/runner/resources/app_icon.ico` (Windows)
+  - `macos/Runner/Assets.xcassets/AppIcon.appiconset/` (macOS - PNG files)
+  - Linux uses the app icon from the window manager
+  
+- This is a minimal Flutter desktop app setup. Run `fvm flutter pub get` to download dependencies before building.
